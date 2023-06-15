@@ -1,0 +1,268 @@
+/* var */
+:root {
+    --hover-bg-color: rgb(233, 233, 233);
+}
+/* header */
+body {
+    margin: 0;
+}
+
+button {
+    border-width: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 16px;
+    height: 56px;
+    z-index: 100;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#header-start {
+
+}
+
+#header-center {
+    flex: 1;
+    max-width: 728px;
+}
+
+#header-end {
+    width: 225px;
+}
+
+.icon-container, .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    width: 40px;
+    height: 40px;
+}
+
+.header-button {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: var(--hover-bg-color);
+}
+
+
+#menu-icon {
+    width: 24px;
+}
+
+#logo {
+    margin-left: 4px;
+}
+
+#youtube-icon {
+    height: 76px;
+}
+
+#search-icon, #search-icon-small-screen {
+    height: 18px;
+}
+
+#search-icon {
+    padding-right: 6px;
+}
+
+#mic-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#add-icon, #bell-icon {
+    height: 20px;
+}
+
+#avatar-button {
+    background-color: #c2c2c2;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    margin: 0px 6px;
+}
+#avatar {
+    height: 34px;
+    object-fit: cover;
+
+}
+
+#header-center-container, #header-end-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 8px;
+}
+
+#header-center-container {
+    margin-left: 60px;
+}
+
+#header-end-container {
+    justify-content: end;
+    margin-right: 10px
+}
+
+#searchbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    flex: 1;
+}
+
+#search-button, #search-input-container {
+    align-items: center;
+    height: 100%;
+    display: flex;
+    border: 1px solid #c2c2c2;
+}
+
+#search-button {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #f8f8f8;
+    padding: 0px 30px;
+    transition: background-color 0.1s;    
+}
+
+#search-button:hover {
+    background-color: #f0f0f0;
+}
+
+#search-input-container {
+    height: 38px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: transparent;
+    padding: 0px 0px 0px 12px;
+    margin-right: -1px;
+    flex: 1;
+    width: 8px;
+}
+
+#search-input {
+    height: 26px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+#search-input::placeholder {
+    color: rgb(174, 174, 174)
+}
+
+#search-input::-webkit-search-cancel-button {
+    display: none;
+}
+
+#search-cancel-button {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+}
+
+#notification-button {
+    position: relative;
+}
+
+#notification-number {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: red;
+    top: 4px;
+    right: 0px;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    padding: 0.5px 4px;
+}
+
+.has-tooltip {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.button-tooltip {
+    position: absolute;
+    bottom: -50px;
+    background-color: #0000009c;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 4px;
+    width: max-content;
+    display: none;
+}
+
+.has-tooltip:hover .button-tooltip {
+    display: block;
+}
+
+@media (max-width: 320px) {
+    #header-container {
+        padding: 0px;
+    }
+    #logo {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 428px) {
+    #header-center-container {
+        margin-left: 0px;
+    }
+    #mic-button, #notification-button {
+        display: none;
+    }
+}
+
+@media (max-width: 656px) {
+    #header-center-container { 
+        justify-content: end;
+        gap: 0px;
+    }
+
+    #searchbar-container {
+        display: none;
+    }
+
+    #header-end {
+        width: max-content;
+        min-width: max-content;
+    }
+
+    #header-end-container {
+        gap: 0px;
+    }
+}
+
+@media (min-width: 656px) {
+    #search-button-small-screen {
+        display: none;
+    }
+}
