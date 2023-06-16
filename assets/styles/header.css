@@ -151,6 +151,8 @@ button {
 }
 
 #search-input-container {
+    display: flex;
+    direction: row;
     height: 38px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -159,6 +161,11 @@ button {
     margin-right: -1px;
     flex: 1;
     width: 8px;
+    justify-content: start;
+}
+
+#input-container {
+    flex: 1;
 }
 
 #search-input {
@@ -223,6 +230,14 @@ button {
     display: block;
 }
 
+#back-button {
+    display: none;
+}
+
+#back-icon {
+    width: 30px;
+}
+
 @media (max-width: 320px) {
     #header-container {
         padding: 0px;
@@ -262,7 +277,11 @@ button {
 }
 
 @media (min-width: 656px) {
+    div[display = 'none'] {
+        display: flex;
+    }
     #search-button-small-screen {
         display: none;
     }
+    
 }

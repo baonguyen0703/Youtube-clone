@@ -9,6 +9,11 @@
     <!-- header HTML -->
     <div id="header-container" class="container">
         <div id="header-start" class="header">
+            <div id="back-button" class="header-button search-component-small-screen">
+                <div class="icon-container">
+                    <img src="./assets/icons/arrow-left.svg" alt="back icon" id="back-icon" class="header-icon">
+                </div>
+            </div>
             <div class="header-button">
                 <div class="icon-container">
                     <img src="./assets/icons/list.svg" alt="menu icon" id="menu-icon" class="header-icon">
@@ -22,9 +27,9 @@
         </div>
         <div id="header-center" class="header">
             <div id="header-center-container">
-                <div id="searchbar-container">
+                <div id="searchbar-container" class="search-component-small-screen">
                     <form action="" id="search-input-container">
-                        <div class="input-container">
+                        <div id="input-container">
                             <input type="search" placeholder="Search" id="search-input">
                         </div>
                         <div id="search-cancel-button" class="header-button icon-container" onclick="">
@@ -36,8 +41,9 @@
                         <div class="button-tooltip">Search</div>
                     </button>
                 </div>
-                <button id="search-button-small-screen" class="header-button icon-container">
+                <button id="search-button-small-screen" class="header-button icon-container has-tooltip">
                     <img src="./assets//icons/search.svg" id="search-icon-small-screen" class="header-icon" alt="search icon">
+                    <div class="button-tooltip">Search</div>
                 </button>
                 <button id="mic-button" class="header-button icon-container has-tooltip">
                     <img src="./assets/icons/mic-fill.svg" alt="microphone" id="mic-icon" class="header-icon">
