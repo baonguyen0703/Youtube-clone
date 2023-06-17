@@ -1,76 +1,114 @@
 <!DOCTYPE html>
 <html>
 <header>
+    <!-- FONTS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+    </style>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/styles/general.css">
     <link rel="stylesheet" href="./assets/styles/header.css">
+    <link rel="stylesheet" href="./assets/styles/sidebar.css">
 
 </header>
 
 <body>
     <!-- header HTML -->
-    <div id="header-container" class="container">
-        <div id="header-start" class="header">
-            <button id="back-button" class="header-button icon-container search-component-small-screen has-tooltip">
-                <img src="./assets/icons/arrow-left.svg" alt="back icon" id="back-icon" class="header-icon">
-                <div class="button-tooltip">Back</div>
-            </button>
-            <div class="header-button">
-                <div class="icon-container">
-                    <img src="./assets/icons/list.svg" alt="menu icon" id="menu-icon" class="header-icon">
-                </div>
-            </div>
-            <a href="/" id="logo">
-                <div class="logo-container">
-                    <img src="./assets/icons/youtube.svg" alt="youtube icon" id="youtube-icon" class="header-icon">
-                </div>
-            </a>
-        </div>
-        <div id="header-center" class="header">
-            <div id="header-center-container">
-                <div id="searchbar-container" class="search-component-small-screen">
-                    <form action="" id="search-input-container">
-                        <div id="input-container">
-                            <input type="search" placeholder="Search" id="search-input">
-                        </div>
-                        <div id="search-cancel-button" class="header-button icon-container" onclick="">
-                            <img src="./assets/icons/x-lg.svg" alt="cancel search" class="">
-                        </div>
-                    </form>
-                    <button id="search-button" class="icon-container has-tooltip">
-                        <img src="./assets//icons/search.svg" id="search-icon" alt="search icon">
-                        <div class="button-tooltip">Search</div>
+    <div id="app">
+        <div id="header">
+            <div id="header-container" class="container">
+                <div id="header-start" class="header">
+                    <button id="back-button"
+                        class="header-button icon-container search-component-small-screen has-tooltip">
+                        <img src="./assets/icons/arrow-left.svg" alt="back icon" id="back-icon" class="header-icon">
+                        <div class="button-tooltip">Back</div>
                     </button>
+                    <div class="header-button">
+                        <div class="icon-container">
+                            <img src="./assets/icons/list.svg" alt="menu icon" id="menu-icon" class="header-icon">
+                        </div>
+                    </div>
+                    <a href="/" id="logo">
+                        <div class="logo-container">
+                            <img src="./assets/icons/youtube.svg" alt="youtube icon" id="youtube-icon"
+                                class="header-icon">
+                        </div>
+                    </a>
                 </div>
-                <button id="search-button-small-screen" class="header-button icon-container has-tooltip">
-                    <img src="./assets//icons/search.svg" id="search-icon-small-screen" class="header-icon"
-                        alt="search icon">
-                    <div class="button-tooltip">Search</div>
-                </button>
-                <button id="mic-button" class="header-button icon-container has-tooltip">
-                    <img src="./assets/icons/mic-fill.svg" alt="microphone" id="mic-icon" class="header-icon">
-                    <div class="button-tooltip">Search with your voice</div>
-                </button>
+                <div id="header-center" class="header">
+                    <div id="header-center-container">
+                        <div id="searchbar-container" class="search-component-small-screen">
+                            <form action="" id="search-input-container">
+                                <div id="input-container">
+                                    <input type="search" placeholder="Search" id="search-input">
+                                </div>
+                                <div id="search-cancel-button" class="header-button icon-container" onclick="">
+                                    <img src="./assets/icons/x-lg.svg" alt="cancel search" class="">
+                                </div>
+                            </form>
+                            <button id="search-button" class="icon-container has-tooltip">
+                                <img src="./assets//icons/search.svg" id="search-icon" alt="search icon">
+                                <div class="button-tooltip">Search</div>
+                            </button>
+                        </div>
+                        <button id="search-button-small-screen" class="header-button icon-container has-tooltip">
+                            <img src="./assets//icons/search.svg" id="search-icon-small-screen" class="header-icon"
+                                alt="search icon">
+                            <div class="button-tooltip">Search</div>
+                        </button>
+                        <button id="mic-button" class="header-button icon-container has-tooltip">
+                            <img src="./assets/icons/mic-fill.svg" alt="microphone" id="mic-icon" class="header-icon">
+                            <div class="button-tooltip">Search with your voice</div>
+                        </button>
+                    </div>
+                </div>
+                <div id="header-end" class="header">
+                    <div id="header-end-container">
+                        <button id="create-button" class="header-button icon-container has-tooltip">
+                            <img src="./assets/icons/plus-square.svg" alt="add video" id="add-icon" class="header-icon">
+                            <div class="button-tooltip">Create</div>
+                        </button>
+                        <button id="notification-button" class="header-button icon-container has-tooltip">
+                            <img src="./assets/icons/bell.svg" alt="notification" id="bell-icon" class="header-icon">
+                            <div id="notification-number">9+</div>
+                            <div class="button-tooltip">Notifications</div>
+                        </button>
+                        <button id="avatar-button" class="header-button icon-container">
+                            <img src="./assets/images/avatar.jpg" alt="avatar" id="avatar" class="">
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="header-end" class="header">
-            <div id="header-end-container">
-                <button id="create-button" class="header-button icon-container has-tooltip">
-                    <img src="./assets/icons/plus-square.svg" alt="add video" id="add-icon" class="header-icon">
-                    <div class="button-tooltip">Create</div>
-                </button>
-                <button id="notification-button" class="header-button icon-container has-tooltip">
-                    <img src="./assets/icons/bell.svg" alt="notification" id="bell-icon" class="header-icon">
-                    <div id="notification-number">9+</div>
-                    <div class="button-tooltip">Notifications</div>
-                </button>
-                <button id="avatar-button" class="header-button icon-container">
-                    <img src="./assets/images/avatar.jpg" alt="avatar" id="avatar" class="">
-                </button>
+        <div id="sidebar">
+            <div id="sidebar-container">
+                <div id="sidebar-header" class="header">
+
+                </div>
+                <div id="sidebar-main">
+                    <!-- TEMPLATE for each section -->
+                    <!-- <div id="section_name" class="sidebar-section">
+                        <div class="section-title">section_name</div>
+                        <a href="/" class="section-button">
+                            <img src="" alt="" class="section-item-icon">
+                            <div>item name</div>
+                        </a>
+                    </div> -->
+                </div>
             </div>
+        </div>
+        <div id="mini-sidebar">
+            mini sidebar
+        </div>
+        <div id="main">
+            main
         </div>
     </div>
     <!-- header script -->
     <script src="./js/header.js"></script>
 
+    <!-- sidebar script -->
+    <script type="module" src="./js/sidebar.js"></script>
 </body>
 
 </html>

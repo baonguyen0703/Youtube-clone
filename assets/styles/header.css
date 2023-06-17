@@ -1,25 +1,26 @@
-/* var */
-:root {
-    --hover-bg-color: rgb(233, 233, 233);
-}
-/* header */
-body {
-    margin: 0;
-}
-
 button {
     border-width: 0px;
     background-color: transparent;
     cursor: pointer;
 }
 
+#header {
+    position: fixed;
+    height: 56px;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 12px;
+    z-index: 100;
+    background-color: white;
+}
+
 #header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 16px;
-    height: 56px;
-    z-index: 100;
+    height: 100%;
+    width: 100%;
 }
 
 .header {
@@ -120,7 +121,6 @@ button {
 
 #header-end-container {
     justify-content: end;
-    margin-right: 10px
 }
 
 #searchbar-container {

@@ -76,24 +76,20 @@ const toggleSearchHeader = (isSearchSmallScreen) => {
         // adjust position of microphone's tooltip
         document.querySelector('#mic-button .button-tooltip').style.right = "0px"
     } else {
-        // unhide header-end and search-button-small-screen 
+        // apply original styles
         headerEndElement.style.display = 'flex'
         searchButtonSmallScreen.style = origSearchButtonSmallScreen.style
         
-        // hide all children of header-start
         for (const child of headerStartElementChildren) {
             child.style.display = 'flex'
         }
-        // unhide back-button
+
         headerStartElementChildren[0].style.display='none'
-     
-        // unhide searchComponent and add margin
+
         searchComponent.style = origSearchComponentStyle
-    
-        // remove left-margin of header-center-container
+
         headerCenterContainer.style = origHeaderCenterContainerStyle
 
-        // adjust position of microphone's tooltip
         document.querySelector('#mic-button .button-tooltip').style.right = ""
     }
 }

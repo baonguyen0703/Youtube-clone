@@ -1,0 +1,9 @@
+/* var */
+:root {
+    --hover-bg-color: rgb(233, 233, 233);
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
