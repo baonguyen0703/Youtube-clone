@@ -8,8 +8,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/styles/general.css">
     <link rel="stylesheet" href="./assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/under-header.css">
     <link rel="stylesheet" href="./assets/styles/sidebar.css">
-
+    <link rel="stylesheet" href="./assets/styles/main.css">
 </header>
 
 <body>
@@ -80,28 +81,57 @@
                 </div>
             </div>
         </div>
-        <div id="sidebar">
-            <div id="sidebar-container">
-                <div id="sidebar-header" class="header">
+        <div id="under-header">
+            <div id="sidebar-wrapper">
+                <div id="sidebar">
+                    <div id="sidebar-container">
+                        <div id="sidebar-header" class="header">
 
-                </div>
-                <div id="sidebar-main">
-                    <!-- TEMPLATE for each section -->
-                    <!-- <div id="section_name" class="sidebar-section">
+                        </div>
+                        <div id="sidebar-main">
+                            <!-- TEMPLATE for each section -->
+                            <!-- <div id="section_name" class="sidebar-section">
                         <div class="section-title">section_name</div>
                         <a href="/" class="section-button">
                             <img src="" alt="" class="section-item-icon">
                             <div>item name</div>
                         </a>
                     </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div id="mini-sidebar">
+                    mini sidebar
                 </div>
             </div>
-        </div>
-        <div id="mini-sidebar">
-            mini sidebar
-        </div>
-        <div id="main">
-            main
+            <div id="main-container">
+                <div id="main">
+                    <!-- <div class="video-card">
+                        <a class="thumbnail-container" href="https://www.youtube.com/watch?v=bDkwGzLT_YE">
+                            <img class="thumbnail" src="https://i.ytimg.com/vi/c5QWHFQJaBc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDi-KLKcFPGTz3xn4LmrRjEYE1Pzg" alt="">
+                            <div class="video-duration">11:54:58</div>
+                        </a>
+                        <div class="description-container">
+                            <a class="avatar-link" href="">
+                                <img class="channel-avatar" src="https://yt3.ggpht.com/NpgUd5sEqCIsK-opPAGG3njOD2R75eSfXGeub7D6npsscjMM5rCmg4HwwnEmnbFfgEHRpK55_w=s68-c-k-c0x00ffffff-no-rj"></img>
+                            </a>
+                            <div class="video-info">
+                                <div class="video-title">Relaxing Music with Nature Sounds Bamboo Water Fountain [Healing Music BGM]</div>
+                                <div class="channel-container">
+                                    <div class="channel-name">Mindfulness Music</div>
+                                    <div class="channel-badge">
+                                        <svg height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg>
+                                    </div>
+                                </div>
+                                <div class="video-metadata">54K • 1 month ago</div>
+                            </div>
+                            <div class="video-menu">
+                                ...
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
         </div>
     </div>
     <!-- header script -->
@@ -109,6 +139,9 @@
 
     <!-- sidebar script -->
     <script type="module" src="./js/sidebar.js"></script>
+
+    <!-- main script -->
+    <script type="module" src="./js/main.js"></script>
 </body>
 
 </html>

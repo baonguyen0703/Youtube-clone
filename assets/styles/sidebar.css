@@ -10,13 +10,13 @@
 
 /* wrapper */
 #sidebar, #mini-sidebar {
-    position: fixed;
+    /* position: fixed;
     top: 0px;
     left: 0px;
     right: auto;
-    bottom: 0px;
+    bottom: 0px; */
     z-index: 90;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 #sidebar {

@@ -1,0 +1,20 @@
+#under-header {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow-y: scroll;
+
+}
+
+#sidebar-wrapper {
+    /* background-color: #8d1111; */
+    width: max-content;
+    overflow-y: scroll;
+}
+
+#main-container {
+    /* background-color: #7368d76f; */
+    flex: 1;
+    overflow-y: scroll;
+    margin-top: 56px;
+}
