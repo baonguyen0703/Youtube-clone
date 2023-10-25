@@ -114,14 +114,3 @@
     height: 24px;
 }
 
-@media (max-width: 1096px) {
-    #main {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 1590px) {
-    #main {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}

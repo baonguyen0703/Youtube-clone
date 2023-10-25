@@ -98,3 +98,27 @@ export const sections = {
   section_more,
   section_others
 };
+
+// mini-sidebar
+export const mini_sidebar_items = [
+  {
+    name: "Home",
+    path: "/",
+    icon: "../assets/icons/home.svg",
+  },
+  {
+    name: "Shorts",
+    path: "/",
+    icon: "../assets/icons/shorts.svg",
+  },
+  {
+    name: "Subscriptions",
+    path: "/",
+    icon: "../assets/icons/subscriptions.svg",
+  },
+  {
+    name: "Library",
+    path: "/",
+    icon: "../assets/icons/library.svg",
+  },
+]

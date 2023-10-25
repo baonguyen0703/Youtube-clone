@@ -1,12 +1,4 @@
-import { sections } from "./sidebar-sections.js";
-
-// create header component
-const sidebarHeader = document.getElementById("sidebar-header");
-const headerComponent = document.getElementById("header-start");
-sidebarHeader.innerHTML = headerComponent.innerHTML;
-
-// get sidebar sections
-const { section_main } = { ...sections };
+import { sections, mini_sidebar_items } from "./sidebar-items.js";
 
 // create main component
 const sidebarMain = document.getElementById("sidebar-main");
@@ -29,3 +21,15 @@ for (let key in sections) {
         `;
   });
 }
+
+// mini-sidebar
+const miniSidebarMain = document.getElementById("mini-sidebar-main");
+
+mini_sidebar_items.forEach( item => {
+  miniSidebarMain.innerHTML += `
+  <a href="${item.path}" class="section-button">
+      <img src="${item.icon}" alt="${item.name} icon" class="section-item-icon">
+      <div class="section-item-name">${item.name}</div>
+  </a>
+  `
+})

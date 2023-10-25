@@ -6,4 +6,26 @@
 body {
     margin: 0;
     font-family: 'Roboto', 'Arial', sans-serif;
+    height: 100%;
+}
+
+#app {
+    display: flex;
+    margin-top: 56px;
+    height: 100%;
+}
+
+#sidebar-wrapper {
+    /* background-color: #8d1111; */
+    position: fixed;
+    width: max-content;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#main-container {
+    /* background-color: #7368d76f; */
+    position: relative;
+    flex: 1;
+    /* margin-left: 240px; */
 }
