@@ -132,6 +132,7 @@ button {
 }
 
 #search-button, #search-input-container {
+    box-sizing: border-box;
     align-items: center;
     height: 100%;
     display: flex;
@@ -153,7 +154,6 @@ button {
 #search-input-container {
     display: flex;
     direction: row;
-    height: 38px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-color: transparent;

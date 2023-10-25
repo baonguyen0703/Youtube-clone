@@ -7,7 +7,7 @@ const videoList = [
         duration: '6:32:05',
         link: `https://www.youtube.com/watch?v=n61ULEU7CO0`,
         thumbnail: `https://i.ytimg.com/vi/n61ULEU7CO0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAi4TCpAtbxLFIBULRlcZHudl1uFw`,
-        channel_avatar: `https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s68-c-k-c0x00ffffff-no-rj`,
+        channel_avatar: `https://yt3.ggpht.com/pcvnEbQ1F18Oms0Dn4qBf7APYU4Uj_AiJZAl023Z6ZBeSU7R8gq41DGMYgb1hBVhdK6GZeD6=s48-c-k-c0x00ffffff-no-rj`,
         views: '26M',
     },
     {
@@ -40,7 +40,7 @@ const videoList = [
         duration: '6:32:05',
         link: `https://www.youtube.com/watch?v=n61ULEU7CO0`,
         thumbnail: `https://i.ytimg.com/vi/n61ULEU7CO0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAi4TCpAtbxLFIBULRlcZHudl1uFw`,
-        channel_avatar: `https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s68-c-k-c0x00ffffff-no-rj`,
+        channel_avatar: `https://yt3.ggpht.com/pcvnEbQ1F18Oms0Dn4qBf7APYU4Uj_AiJZAl023Z6ZBeSU7R8gq41DGMYgb1hBVhdK6GZeD6=s48-c-k-c0x00ffffff-no-rj`,
         views: '26M',
     },
     {
@@ -73,7 +73,7 @@ const videoList = [
         duration: '6:32:05',
         link: `https://www.youtube.com/watch?v=n61ULEU7CO0`,
         thumbnail: `https://i.ytimg.com/vi/n61ULEU7CO0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAi4TCpAtbxLFIBULRlcZHudl1uFw`,
-        channel_avatar: `https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s68-c-k-c0x00ffffff-no-rj`,
+        channel_avatar: `https://yt3.ggpht.com/pcvnEbQ1F18Oms0Dn4qBf7APYU4Uj_AiJZAl023Z6ZBeSU7R8gq41DGMYgb1hBVhdK6GZeD6=s48-c-k-c0x00ffffff-no-rj`,
         views: '26M',
     },
     {
@@ -106,7 +106,7 @@ const videoList = [
         duration: '6:32:05',
         link: `https://www.youtube.com/watch?v=n61ULEU7CO0`,
         thumbnail: `https://i.ytimg.com/vi/n61ULEU7CO0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAi4TCpAtbxLFIBULRlcZHudl1uFw`,
-        channel_avatar: `https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s68-c-k-c0x00ffffff-no-rj`,
+        channel_avatar: `https://yt3.ggpht.com/pcvnEbQ1F18Oms0Dn4qBf7APYU4Uj_AiJZAl023Z6ZBeSU7R8gq41DGMYgb1hBVhdK6GZeD6=s48-c-k-c0x00ffffff-no-rj`,
         views: '26M',
     },
     {
@@ -139,7 +139,7 @@ const videoList = [
         duration: '6:32:05',
         link: `https://www.youtube.com/watch?v=n61ULEU7CO0`,
         thumbnail: `https://i.ytimg.com/vi/n61ULEU7CO0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAi4TCpAtbxLFIBULRlcZHudl1uFw`,
-        channel_avatar: `https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s68-c-k-c0x00ffffff-no-rj`,
+        channel_avatar: `https://yt3.ggpht.com/pcvnEbQ1F18Oms0Dn4qBf7APYU4Uj_AiJZAl023Z6ZBeSU7R8gq41DGMYgb1hBVhdK6GZeD6=s48-c-k-c0x00ffffff-no-rj`,
         views: '26M',
     },
     {
